@@ -1,0 +1,33 @@
+{
+  "name": "signalz",
+  "version": "1.0.0",
+  "description": "A Node.js event emitter to be used across multiple projects",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YahiaElramal/signalz.git"
+  },
+  "keywords": [
+    "events",
+    "eventemitter",
+    "signals",
+    "cross-project"
+  ],
+  "author": "Mawlicious",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YahiaElramal/signalz/issues"
+  },
+  "homepage": "https://github.com/YahiaElramal/signalz#readme",
+  "dependencies": {
+    "events": "^3.3.0",
+    "firebase-admin": "^9.9.0"
+  },
+  "devDependencies": {
+    "@types/events": "^3.0.0",
+    "@types/node": "*"
+  }
+}

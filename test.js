@@ -1,0 +1,1 @@
+const Signalz = require("./dist")
