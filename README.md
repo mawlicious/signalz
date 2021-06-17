@@ -52,7 +52,7 @@ Then initialize Signals itself:
 const client = new Signalz.Client("CLIENT_ID", firebase.database());
 ```
 
-Client ID is explained [here]("")
+Client ID is explained [here](#explaining-some-terms)
 
 ### Sending a Signal
 
@@ -60,6 +60,8 @@ Client ID is explained [here]("")
 await client.sendSignal("SIGNAL_ID", "TARGET_CLIENT_ID", data);
 // Data can be a number, string, boolean, or object.
 ```
+
+Signal ID and Target Client ID are exmplaned [here](#explaining-some-terms)
 
 ### Receiving a Signal
 
