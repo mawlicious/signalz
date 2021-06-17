@@ -2,7 +2,7 @@
 
 Signals is an event-emitter-like library meant to be used across different node projects without setting up a websocket or a server, with the use of [Firebase]("https://firebase.com") and soon can also be used with [MongoDB]("https://www.mongodb.com/")
 
-[![npm]('https://nodei.co/npm/signalz.png')]('https://www.npmjs.com/package/signalz')
+[![npm](https://nodei.co/npm/signalz.png)]('https://www.npmjs.com/package/signalz')
 
 ## Documentation
 
