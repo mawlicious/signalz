@@ -1,12 +1,12 @@
 # Signalz
 
-Signals is an event-emitter-like library meant to be used across different node projects without setting up a websocket or a server, with the use of [Firebase]("https://firebase.com") and soon can also be used with [MongoDB]("https://www.mongodb.com/")
+Signals is an event-emitter-like library meant to be used across different node projects without setting up a websocket or a server, with the use of [Firebase](https://firebase.com) and soon can also be used with [MongoDB](https://www.mongodb.com/)
 
-[![npm](https://nodei.co/npm/signalz.png)]('https://www.npmjs.com/package/signalz')
+[![npm](https://nodei.co/npm/signalz.png)](https://www.npmjs.com/package/signalz)
 
 ## Documentation
 
-While this readme does cover most points, its reccomended to check out the [documentation site]("https://signalz.js.org/")
+While this readme does cover most points, its reccomended to check out the [documentation site](https://signalz.js.org/)
 
 ## Installation
 
@@ -32,7 +32,7 @@ Heres how to setup Signalz with the firebase method
 
 ### Getting Started
 
-First import firebase-admin and initialize firebase, this is explained further [here]("https://firebase.google.com/docs/admin/setup/#initialize-sdk")
+First import firebase-admin and initialize firebase, this is explained further [here](https://firebase.google.com/docs/admin/setup/#initialize-sdk)
 
 ```js
 const firebase = require("firebase-admin");
