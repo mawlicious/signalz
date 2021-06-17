@@ -124,3 +124,11 @@ client.on("signal", (signal) => {
   signal.end();
 });
 ```
+
+## Explaining Some Terms
+
+| Term             | Meaning                                                                                                                      |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| CLIENT_ID        | This is used so signals can be targetted to only the project(s) with that client id                                          |
+| TARGET_CLIENT_ID | You set this in the signal so the signal only goes to the projects with that client id                                       |
+| SIGNAL_ID        | This is a custom id that is passed when sending the the signal so the receiving end knows which type of signal its receiving |
